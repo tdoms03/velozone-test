@@ -11,6 +11,7 @@ from watchdog.events import FileSystemEventHandler
 from app.Read_supabase_data import *
 from extra_functions import remove_all_files_in_metingen
 
+#test 
 PER_PAGE = 10  # Number of riders per page
 
 remove_all_files_in_metingen()
