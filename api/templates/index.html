@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VELOZONE</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <h1 class="title">VELOZONE</h1>
+    <div class="button-container">
+        <a href="{{ url_for('start_session') }}"><button id="start-session">Start Session</button></a>
+        <a href="{{ url_for('stop_session') }}"><button id="stop-session">Stop Session</button></a>
+        <a href="{{ url_for('generate_report') }}"><button id="generate-report">Generate Report</button></a>
+        <a href="{{ url_for('leaderboard') }}"><button id="leaderboard">Leaderboard</button></a>
+    </div>
+</body>
+</html>
